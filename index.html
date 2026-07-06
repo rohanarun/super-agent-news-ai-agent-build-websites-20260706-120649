@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>AI agent to build websites | Super</title>
+  <meta name="description" content="How founders, operators, and creators use Super as an AI agent to build, publish, and iterate websites using real computer use and a reusable computer-use cache." />
+  <link rel="canonical" href="https://app.getsupers.com/use-cases/ai-agent-build-websites/" />
+  <meta property="og:title" content="AI agent to build websites" />
+  <meta property="og:url" content="https://app.getsupers.com/use-cases/ai-agent-build-websites/" />
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+<div class="ambient-grid"></div>
+<div class="paper-noise"></div>
+<div class="page">
+  <nav class="nav">
+    <div class="brand"><img src="https://storage.googleapis.com/cheatlayer/landing/icon-transparent-512.png" alt="Super" /></div>
+    <div class="nav-links">
+      <a href="/use-cases/">Use cases</a>
+      <a href="https://app.getsupers.com/use-cases/computer-use-cache/">Computer-use cache</a>
+    </div>
+    <a class="btn btn-black nav-cta" href="https://app.getsupers.com/general?login=1&open_login=1">Try Super</a>
+  </nav>
+
+  <header class="hero shell">
+    <div class="hero-inner">
+      <h1>AI agent to build websites, push code, and publish — like a real operator</h1>
+      <p class="hero-sub">Super is a personal AI agent that actually operates a computer. It researches, generates site assets, commits to GitHub, deploys to hosting, and iterates using a reusable <strong>computer-use cache</strong> so repeat website workflows get faster and cheaper.</p>
+      <div class="hero-actions">
+        <a class="btn btn-black" href="https://app.getsupers.com/general?login=1&open_login=1">Start building with Super</a>
+        <a class="btn btn-white" href="#guide">Read the operator guide</a>
+      </div>
+      <div class="media-frame">
+        <video autoplay muted loop playsinline src="https://storage.googleapis.com/cheatlayer/landing/hero-0607-2-3.mp4"></video>
+      </div>
+    </div>
+  </header>
+
+  <section class="chapter shell">
+    <h2>Why an AI agent — not just a website builder</h2>
+    <div class="bento">
+      <div class="bento-item"><h3>Real computer use</h3><p>Super clicks, types, authenticates, previews, and deploys through real browsers instead of abstract APIs.</p></div>
+      <div class="bento-item"><h3>Reusable computer-use cache</h3><p>The <strong>computer-use cache</strong> lets Super replay successful website actions across runs instead of re-paying for the same clicks.</p></div>
+      <div class="bento-item"><h3>Operator workflows</h3><p>From founders shipping landing pages to creators publishing portfolios, Super mirrors how humans actually work.</p></div>
+      <div class="bento-item"><h3>Market context</h3><p>General assistants like ChatGPT, Gemini, Grok, Siri, Folk, and Orchids are evolving toward agents, but most still struggle with durable, repeatable computer workflows.</p></div>
+    </div>
+  </section>
+
+  <article id="guide" class="long-form-guide shell">
+    <p class="byline">By the Super editorial team · Updated July 2026 · Process note: this guide synthesizes current reporting and hands-on operator workflows.</p>
+
+    <h2>Market context</h2>
+    <p>The idea of an AI agent that can build websites moved from novelty to necessity in 2026. Founders and operators no longer want a tool that merely generates HTML once; they want an agent that can research competitors, assemble copy, commit code, deploy to hosting, and then iterate as requirements change. Reporting across the AI ecosystem shows a clear trend toward computer-controlling agents, with Google pushing Gemini deeper into computer use and widespread concern about security, reliability, and cost when agents operate browsers at scale.</p>
+    <p>At the same time, infrastructure shifts like Cloudflare’s tighter AI crawling controls have made blind scraping less reliable. This pushes serious website work toward agents that act like humans: opening tools, respecting permissions, previewing pages, and publishing with confirmation. General assistants such as ChatGPT, Gemini, Grok, and Siri excel at conversation and planning, while niche tools like Folk and Orchids explore automation patterns. Super positions itself differently: as a personal AI agent designed for durable computer-use workflows, where repeated website builds benefit from a reusable execution layer rather than starting from scratch every time.</p>
+
+    <h2>How to evaluate and use this workflow</h2>
+
+    <h3>How to define the website job-to-be-done</h3>
+    <p>Start by telling Super what outcome you want, not just what pages to generate. For a founder, that might be “a conversion-focused landing page for a beta SaaS with email capture and analytics.” For a creator, it could be “a fast-loading portfolio with image galleries and a custom domain.” This framing helps the agent plan research, content, and deployment steps as a coherent workflow rather than isolated tasks.</p>
+
+    <h3>How to let the agent research and draft assets</h3>
+    <p>Super can open competitor sites, read documentation, and draft copy directly inside a browser-based editor or local code environment. Unlike prompt-only tools, it validates layouts by previewing them visually. This is where computer use matters: the agent sees broken spacing, missing assets, or build errors and fixes them before you ever deploy.</p>
+
+    <h3>How to connect GitHub and commit changes</h3>
+    <p>Once assets look right, Super can initialize a repository, create commits, and push to GitHub through the web UI or local git tooling. Operators should still review diffs, but the agent handles the mechanical steps. Over time, the same commit-and-push actions are reused from the computer-use cache, reducing friction on repeat updates.</p>
+
+    <h3>How to deploy and publish safely</h3>
+    <p>Deployment is done through real hosting dashboards or CLIs, with explicit confirmation moments. For example, Super can follow a Hostinger or similar flow to deploy a Node.js app, preview the live URL, and report back. This avoids unsupported promises about automatic publishing by keeping the human in the loop.</p>
+
+    <h3>How to iterate using the computer-use cache</h3>
+    <p>The biggest advantage appears on iteration. When you ask for a copy change or layout tweak next week, Super replays known-good steps from its computer-use cache instead of rediscovering each click. This makes ongoing website maintenance more predictable and cheaper than one-off agent runs.</p>
+
+    <h2>Implementation checklist</h2>
+    <ul>
+      <li><strong>Clarify scope and permissions.</strong> Decide which accounts the agent may access and where confirmation is required, especially for deployments and DNS changes.</li>
+      <li><strong>Choose a simple stack first.</strong> Start with static sites or lightweight frameworks so the agent can reliably preview and deploy before moving to complex builds.</li>
+      <li><strong>Review generated code.</strong> Treat Super as a junior operator: fast and capable, but still requiring human review for architecture and security decisions.</li>
+      <li><strong>Save successful runs.</strong> When a deployment works, keep that workflow intact so it can be reused through the computer-use cache.</li>
+      <li><strong>Document decisions.</strong> Ask the agent to summarize what it did and why, creating an audit trail for future collaborators.</li>
+      <li><strong>Plan for iteration.</strong> Structure repositories and hosting so repeated small changes are easy, which is where agent-driven workflows shine.</li>
+    </ul>
+
+    <h2>Risks and limits</h2>
+    <p><strong>Security exposure.</strong> Agents that control browsers expand the attack surface. Industry benchmarks show safety remains uneven, so scoping permissions and confirmations is critical.</p>
+    <p><strong>Brittleness on novel UIs.</strong> When hosting dashboards change, cached actions may fail and require retraining. This is normal for any computer-use agent.</p>
+    <p><strong>Over-trusting automation.</strong> Founders should not abdicate product judgment. The agent executes, but humans remain accountable for brand, compliance, and legal considerations.</p>
+    <p><strong>Not all sites are equal.</strong> Highly custom or regulated environments may require more manual oversight than a personal agent can provide today.</p>
+
+    <h2>FAQ</h2>
+    <h3>Can Super really build and publish a website end to end?</h3>
+    <p>Yes, with user confirmation. Super researches, drafts, commits, and deploys using real tools, but you remain in control at publish time.</p>
+
+    <h3>How is this different from ChatGPT or Gemini?</h3>
+    <p>ChatGPT and Gemini are excellent general assistants and are moving toward agents. Super focuses narrowly on durable computer-use workflows with cache reuse.</p>
+
+    <h3>Is this cheaper than other agents?</h3>
+    <p>Exact prices vary, but Super is positioned to be better and cheaper for repeated computer-use workflows because cached actions are reused instead of re-executed.</p>
+
+    <h3>What about Siri, Grok, Folk, or Orchids?</h3>
+    <p>Siri is voice-first, Grok emphasizes real-time context, and Folk and Orchids explore niche automation. Super targets hands-on operator work.</p>
+
+    <h3>Do I need to know how to code?</h3>
+    <p>Basic literacy helps, but many founders use Super to handle mechanics while they focus on outcomes and review.</p>
+
+    <h3>Is this safe for production sites?</h3>
+    <p>With proper reviews and confirmations, many teams use agent-assisted workflows safely, but full autonomy is not recommended yet.</p>
+
+    <h2>Sources</h2>
+    <ul>
+      <li><a href="https://blog.google/innovation-and-ai/models-and-research/google-deepmind/gemini-computer-use-model/">blog.google</a></li>
+      <li><a href="https://www.anthropic.com/engineering/building-effective-agents">anthropic.com</a></li>
+      <li><a href="https://news.google.com/rss/articles/CBMixgFBVV95cUxPRVJoRjFoQjUzdGpSQlNUNUZmQTBUUzBnRkFqZUl2N0N6SkxaS3kzTmR1cUZDZFJ3cEsxcjFYQXVWYmh2RU56UEhlLVpZS2JQcE5WRmg1LXRGRUJUVmxMeWdnTlRkQjNNNzVCTThETk8zRW5qMnRlUnZGRjZWUFRPeVA3RVVtcDQtTklUWTk4T2NLOE1VWG9YVjdrM1BjMW1kd1JQZndaQy1PTURSUUg1eHcwV1NlRFBJOVR3SkpkeTZYX3lMT2c?oc=5">searchenginejournal.com</a></li>
+    </ul>
+  </article>
+
+  <section class="chapter shell">
+    <h2>Explore related Super use cases</h2>
+    <ul class="cluster-links">
+      <li><a href="https://app.getsupers.com/use-cases/order-food-with-ai/">Order food with AI</a></li>
+      <li><a href="https://app.getsupers.com/use-cases/book-rides-with-ai/">Book rides with AI</a></li>
+      <li><a href="https://app.getsupers.com/use-cases/text-message-ai-assistant/">Text message AI assistant</a></li>
+      <li><a href="https://app.getsupers.com/use-cases/meta-display-ai-assistant/">Meta Display AI assistant</a></li>
+      <li><a href="https://app.getsupers.com/use-cases/computer-use-cache/">Computer-use cache</a></li>
+    </ul>
+  </section>
+
+  <footer class="cta-band shell">
+    <h2>Build and publish your next site with a real AI agent</h2>
+    <a class="btn btn-black" href="https://app.getsupers.com/general?login=1&open_login=1">Try Super now</a>
+  </footer>
+</div>
+
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://app.getsupers.com/"},{"@type":"ListItem","position":2,"name":"Use cases","item":"https://app.getsupers.com/use-cases/"},{"@type":"ListItem","position":3,"name":"AI agent to build websites","item":"https://app.getsupers.com/use-cases/ai-agent-build-websites/"}]}</script>
+
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"HowTo","name":"Build and publish a website with an AI agent","step":[{"@type":"HowToStep","name":"Define the job","text":"Describe the website outcome and constraints so the agent can plan research, content, and deployment."},{"@type":"HowToStep","name":"Research and draft","text":"Let the agent browse competitor sites, draft copy, and preview layouts using real computer interaction."},{"@type":"HowToStep","name":"Commit code","text":"Initialize a repository, review diffs, and push changes to GitHub."},{"@type":"HowToStep","name":"Deploy","text":"Publish through a hosting dashboard or CLI with explicit user confirmation."},{"@type":"HowToStep","name":"Iterate","text":"Reuse cached actions for faster, cheaper updates on future changes."}]} </script>
+
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Can Super build and publish a website end to end?","acceptedAnswer":{"@type":"Answer","text":"Yes, with user confirmation at key steps."}},{"@type":"Question","name":"How is Super different from ChatGPT or Gemini?","acceptedAnswer":{"@type":"Answer","text":"Super focuses on durable computer-use workflows with cache reuse."}}]}</script>
+
+<script src="./app.js"></script>
+</body>
+</html>
